@@ -1,0 +1,14 @@
+html, body{
+    margin:0;
+    padding:0;
+}
+
+header h1 {
+    text-align: center;
+}
+
+header nav {
+    display: grid;
+    justify-content: center;
+    
+}
