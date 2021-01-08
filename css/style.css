@@ -2,10 +2,16 @@ html, body{
     margin:0;
     padding:0;
 }
-
-header h1 {
-    text-align: center;
+header {
+    display: grid;
+    justify-content: center;
 }
+header #logo {
+    width: 10vw;
+    justify-self: center;
+    margin: 1vw;
+}
+
 
 header nav {
     display: grid;
