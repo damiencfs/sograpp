@@ -2,21 +2,23 @@ html, body{
     margin:0;
     padding:0;
 }
+
 header {
     display: grid;
     justify-content: center;
 }
 header #logo {
-    width: 10vw;
+    width: 5vw;
     justify-self: center;
     margin: 1vw;
 }
-
 
 header nav {
     display: grid;
     grid-template-columns: repeat(4,10vw);
     justify-content: space-between;
+    margin-bottom : 0.5vw;
+    border-bottom: 0.5px solid lightgrey;
 }
 
 header nav a {
@@ -24,4 +26,24 @@ header nav a {
     color: black;
     margin-left: auto;
     margin: auto;
+}
+
+#accueil {
+    display:block;
+}
+
+#shop {
+    margin-top: 3vh;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-content: center;
+}
+
+#shop img{
+    width: 15vw;
+}
+
+#shop div {
+    width : 20vw;
+    box-sizing: border-box;
 }
