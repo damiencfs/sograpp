@@ -3,7 +3,13 @@ html, body{
     padding:0;
     overflow-y: hidden;
 }
-
+body {
+    background-color: black;
+    color: white;
+}
+a {
+    color: white;
+}
 header {
     display: grid;
     justify-content: center;
@@ -36,7 +42,6 @@ header nav {
 
 header nav a {
     text-decoration: none;
-    color: black;
     margin: auto;
 }
 
