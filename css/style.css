@@ -20,6 +20,7 @@ header nav {
     justify-content: space-between;
     margin-bottom : 0.5vw;
     border-bottom: 0.5px solid lightgrey;
+    height: 3vh;
 }
 
 header nav a {
@@ -62,4 +63,14 @@ header nav a {
 }
 #shop aside {
     float: right;
+}
+
+#inscription {
+    display: grid;
+    justify-content: center;
+    margin-top: 3vw;
+}
+#inscription img{
+    width: 20vw;
+    justify-self: center;
 }
