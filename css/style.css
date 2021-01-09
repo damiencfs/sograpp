@@ -1,7 +1,6 @@
 html, body{
     margin:0;
     padding:0;
-    overflow-y: hidden;
 }
 body {
     background-color: black;
@@ -126,7 +125,9 @@ header nav a {
     margin : auto ;
 
 }
-
+#contact ul li {
+    justify-self: center;
+}
 
 
 
