@@ -65,6 +65,15 @@ header nav a {
     float: right;
 }
 
+#shop a {
+    text-decoration: none;
+    color: white;
+    background: red;
+    border-radius: 50%;
+    padding: 3px;
+    text-align: center;
+}
+
 #inscription {
     display: grid;
     justify-content: center;
@@ -73,4 +82,10 @@ header nav a {
 #inscription img{
     width: 20vw;
     justify-self: center;
+}
+
+#inscription a {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
 }
