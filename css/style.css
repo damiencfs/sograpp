@@ -1,6 +1,7 @@
 html, body{
     margin:0;
     padding:0;
+    overflow-y: hidden;
 }
 
 header {
@@ -195,4 +196,20 @@ header nav a {
     #inscription p {
         padding : 1vh;
     }
+    p {
+        padding: 0 0 1vh 1vh;
+    }
+}
+
+@media screen and (min-width:1440px)
+
+{
+
+body {
+    font-size : 20pt;
+}
+footer {
+    font-size: 12pt;
+}
+
 }
