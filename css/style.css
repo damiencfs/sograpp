@@ -107,3 +107,70 @@ header nav a {
     margin : auto ;
 
 }
+
+
+
+
+
+@media screen and (max-width:576px)
+
+{
+
+    header #logo {
+        width: 6vw;
+    }
+    
+    header nav {
+        display: grid;
+        grid-template-columns: repeat(5,20vw);
+    }
+
+    #shop {
+        margin-top: 5vh;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(4,1fr);
+        justify-content: space-around;
+        margin-left: 4vw;
+    }
+    #shop div {
+        margin: auto;
+    }
+    #shop img{
+        width: 30vw;
+    }
+    #shop div article {
+        width : 25vw;
+    }
+    #club {
+        margin: 3vw 0 0 0 ;
+        display: grid;
+        grid-template-columns: 100vw;
+        grid-template-rows: repeat(2,1fr);
+        
+        width: 100vw;
+    }
+    #club img {
+        width: 50vw;
+        justify-self: center;
+    }
+    #contact{
+        display: grid;
+        grid-template-columns: 100vw;
+        grid-template-rows: repeat(2,1fr);
+    }
+    
+    #contact iframe {
+        margin: 3vw auto auto auto;
+        width: 95vw;
+    }
+    #contact h2 {
+        margin: 3vw auto auto 1vw;
+    }
+    
+    #contact .icone {
+        width: 4vh;
+        margin : auto ;
+    
+    }
+}
