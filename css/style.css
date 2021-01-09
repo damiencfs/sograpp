@@ -7,7 +7,17 @@ header {
     display: grid;
     justify-content: center;
 }
-
+footer {
+    background-color: black;
+    position: absolute;
+    bottom: 0;
+    color: white;
+    width : 100%;
+    height: 2vh;
+    padding-bottom: 2vh;
+    text-align: center;
+    font-size: 8pt;
+}
 header #logo {
     width: 5vw;
     justify-self: center;
@@ -30,7 +40,9 @@ header nav a {
 }
 
 #accueil {
-    display:block;
+    display:grid;
+    justify-content: center;
+    align-items: center;
 }
 
 #club {
@@ -100,6 +112,7 @@ header nav a {
 }
 #contact h2 {
     margin: 3vw auto auto 1vw;
+    text-align: center;
 }
 
 #contact .icone {
@@ -178,5 +191,8 @@ header nav a {
     #inscription img{
         width: 50vw;
         justify-self: center;
+    }
+    #inscription p {
+        padding : 1vh;
     }
 }
