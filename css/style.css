@@ -15,8 +15,7 @@ header {
 }
 footer {
     background-color: black;
-    position: absolute;
-    bottom: 0;
+    margin-bottom: 0;
     color: white;
     width : 100%;
     height: 2vh;
@@ -50,14 +49,27 @@ header nav a {
     align-items: center;
 }
 
+#accueil img {
+    width: 100vws;
+}
+#accueil p{
+    text-align: center;
+}
 #club {
     display: grid;
     grid-template-columns: repeat(2,1fr);
     margin: 3vw auto auto auto;
 }
 
-#club {
-    width: 50vw;
+#club img{
+    width: 25vw;
+    justify-self: center;
+}
+
+#club p{
+    justify-self: center;
+    align-self: center;
+
 }
 
 #shop {
@@ -104,7 +116,7 @@ header nav a {
 #inscription a {
     text-decoration: none;
     font-weight: bold;
-    color: black;
+    color: white;
 }
 
 #contact{
@@ -137,7 +149,7 @@ header nav a {
 {
 
     header #logo {
-        width: 6vw;
+        width: 8vw;
     }
     
     header nav {
