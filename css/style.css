@@ -7,6 +7,7 @@ header {
     display: grid;
     justify-content: center;
 }
+
 header #logo {
     width: 5vw;
     justify-self: center;
@@ -24,7 +25,6 @@ header nav {
 header nav a {
     text-decoration: none;
     color: black;
-    margin-left: auto;
     margin: auto;
 }
 
@@ -32,10 +32,21 @@ header nav a {
     display:block;
 }
 
+#club {
+    margin-top: 3vw;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-content: center;
+}
+
+#club {
+    width: 50vw;
+}
+
 #shop {
     margin-top: 3vh;
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(4,20vw);
     justify-content: center;
 }
 
@@ -46,4 +57,10 @@ header nav a {
 #shop div {
     width : 20vw;
     box-sizing: border-box;
+}
+#shop div article {
+    width : 15vw;
+}
+#shop aside {
+    float: right;
 }
