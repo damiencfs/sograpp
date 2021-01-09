@@ -134,8 +134,10 @@ header nav a {
         margin-left: 4vw;
     }
     #shop div {
-        margin: auto;
+        margin-left: 6vw;
+        width : 25vw;
     }
+
     #shop img{
         width: 30vw;
     }
@@ -172,5 +174,9 @@ header nav a {
         width: 4vh;
         margin : auto ;
     
+    }
+    #inscription img{
+        width: 50vw;
+        justify-self: center;
     }
 }
