@@ -16,7 +16,7 @@ header #logo {
 
 header nav {
     display: grid;
-    grid-template-columns: repeat(4,10vw);
+    grid-template-columns: repeat(5,10vw);
     justify-content: space-between;
     margin-bottom : 0.5vw;
     border-bottom: 0.5px solid lightgrey;
@@ -33,10 +33,9 @@ header nav a {
 }
 
 #club {
-    margin-top: 3vw;
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    justify-content: center;
+    margin: 3vw auto auto auto;
 }
 
 #club {
