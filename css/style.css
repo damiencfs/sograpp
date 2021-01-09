@@ -89,3 +89,21 @@ header nav a {
     font-weight: bold;
     color: black;
 }
+
+#contact{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+#contact iframe {
+    margin: 3vw auto auto 1vw;
+}
+#contact h2 {
+    margin: 3vw auto auto 1vw;
+}
+
+#contact .icone {
+    width: 4vh;
+    margin : auto ;
+
+}
