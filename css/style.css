@@ -37,6 +37,7 @@ header nav {
     margin-bottom : 0.5vw;
     border-bottom: 0.5px solid lightgrey;
     height: 3vh;
+    
 }
 
 header nav a {
@@ -51,7 +52,7 @@ header nav a {
 }
 
 #accueil img {
-    width: 100vws;
+    width: 100vw;
 }
 #accueil p{
     text-align: center;
@@ -89,17 +90,19 @@ header nav a {
 #shop div {
     width : 20vw;
     box-sizing: border-box;
+    margin-left: 3vw;
 }
 #shop div article {
     width : 15vw;
 }
 #shop aside {
     float: right;
+    color: orange;
 }
 
 #shop a {
     text-decoration: none;
-    color: white;
+    color: orange;
     font-weight: bold;
     background-color: black;
     padding: 1px;
@@ -157,7 +160,11 @@ header nav a {
     justify-self: center;
 }
 
-
+#contact #snap {
+    width: 10vw;
+    margin-left: 8vw;
+    margin-top: 2vh;
+}
 
 
 @media screen and (max-width:576px)
