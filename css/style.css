@@ -74,9 +74,9 @@ header nav a {
 }
 
 #club p{
-    justify-self: center;
-    align-self: center;
-
+    justify-self: start;
+    align-self:center;
+    padding: 1vw;
 }
 
 #shop {
