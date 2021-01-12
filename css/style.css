@@ -140,7 +140,8 @@ header nav a {
 #inscription a {
     text-decoration: none;
     font-weight: bold;
-    color: white;
+    color: orange;
+    background-color: black;
 }
 
 #contact{
