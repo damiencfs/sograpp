@@ -2,15 +2,11 @@ html, body{
     margin:0;
     padding:0;
 }
-@font-face {
-    font-family: "Roboto";
-    src: local("../ressources/Roboto/Roboto-Regular.ttf") format("ttf");
-        
-   }
+
 body {
     background-color: black;
     color: white;
-    font-family: "Roboto";
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 a {
     color: white;
